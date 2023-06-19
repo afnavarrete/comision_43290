@@ -1,11 +1,12 @@
-import Navbar from "./Navbar"
-import ProductList from "./ProductsList"
+import Navbar from "./Navbar";
+import ProductList from "./ProductsList";
 
 function App() {
-  return <div>
-    <Navbar/>
-    <ProductList/>
-  </div>
+  return (
+    <div>
+      <h1>Este es el App</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
