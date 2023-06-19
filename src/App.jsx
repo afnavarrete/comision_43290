@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import ProductList from "./ProductsList";
 
 function App() {
   return (
