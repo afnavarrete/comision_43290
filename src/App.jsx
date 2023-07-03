@@ -1,10 +1,11 @@
-import Navbar from "./Navbar";
-import ProductList from "./ProductsList";
+import ItemList from "./components/pages/itemList/ItemList";
+import ItemListContainer from "./components/pages/itemList/ItemListContainer";
 
 function App() {
   return (
     <div>
-      <h1>Este es el App</h1>
+      <Navbar />
+      <ItemListContainer />;
     </div>
   );
 }
