@@ -10,7 +10,8 @@ function App() {
   const saludo = "Hola como estas? espero que muy bien";
   return (
     <div>
-      <MaterialUI />
+      <Navbar />
+      <ItemListContainer />
     </div>
   );
 }
